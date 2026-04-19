@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.swp
+libexec
+vendor
+data
+tmp
+asset/*.bkp
