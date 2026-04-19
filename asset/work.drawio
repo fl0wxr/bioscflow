@@ -1,0 +1,117 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="2d4Lq0J6OPnhkFq2qtaS">
+    <mxGraphModel dx="475" dy="294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zVnugzDT77Fua7-YmlxM-1" value="&lt;font face=&quot;Lato Light&quot;&gt;Large Protein Sequence Set&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Lato Light&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;\(\mathcal{V}\)&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Lato Light&quot; style=&quot;font-size: 9px;&quot;&gt;\(\texttt{sample.fasta}\)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#EEEEEE;" parent="1" vertex="1">
+          <mxGeometry x="300" y="435" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-2" value="&lt;font face=&quot;Lato Light&quot;&gt;Sparse PSSN \((\mathcal{V}, \mathcal{A})\)&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Lato Light&quot; style=&quot;font-size: 9px;&quot;&gt;\(\texttt{sample.adj}\)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#EEEEEE;" parent="1" vertex="1">
+          <mxGeometry x="510" y="435" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-3" value="" style="endArrow=classicThin;html=1;rounded=0;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endSize=4;" parent="1" source="zVnugzDT77Fua7-YmlxM-1" target="zVnugzDT77Fua7-YmlxM-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="405.5" as="sourcePoint" />
+            <mxPoint x="480" y="315.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-5" value="&lt;font face=&quot;Lato Light&quot;&gt;Marked low complexity regions&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Lato Light&quot; style=&quot;font-size: 9px;&quot;&gt;\(\texttt{sample.casta}\)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#EEEEEE;" parent="1" vertex="1">
+          <mxGeometry x="300" y="330.5" width="110" height="49.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-15" value="&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Lato Heavy&quot;&gt;BLASTp&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="431.5" y="461.25" width="50" height="14.25" as="geometry" />
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-17" value="&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Lato Heavy&quot;&gt;GeneCAST&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="354" y="387.5" width="65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-18" value="" style="endArrow=classicThin;html=1;rounded=0;endFill=1;strokeWidth=1;endSize=4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="zVnugzDT77Fua7-YmlxM-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="355" as="sourcePoint" />
+            <mxPoint x="550" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="355" />
+              <mxPoint x="440" y="365" />
+              <mxPoint x="440" y="450" />
+              <mxPoint x="450" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-21" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;\(\texttt{diamond blastp}\)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="409" y="477.5" width="95" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-23" value="" style="endArrow=classicThin;html=1;rounded=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endSize=4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zVnugzDT77Fua7-YmlxM-2" target="zVnugzDT77Fua7-YmlxM-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="452.5" as="sourcePoint" />
+            <mxPoint x="670" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-24" value="&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Lato Heavy&quot;&gt;MCL&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="608.75" y="459" width="32" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-25" value="&lt;div style=&quot;line-height: 80%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;line-height: 90%;&quot; face=&quot;Lato Heavy&quot;&gt;Interpretable, reproducible and scalable protein community detection; automatic computation of the number and structure of communities.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;align=left;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="603.25" y="351" width="138.75" height="45.25" as="geometry" />
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-26" value="&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Lato Light&quot;&gt;Partitioned Sequence Set&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Lato Light&quot;&gt;\(\underset{\lambda \rightarrow \infty}{\lim} \mathcal{M}^{(\lambda)}\)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#EEEEEE;" parent="1" vertex="1">
+          <mxGeometry x="658.5" y="422.5" width="75.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-31" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 9px; line-height: 100%;&quot;&gt;\(\texttt{mcl}\)&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px; line-height: 100%;&quot;&gt;\(\texttt{hipmcl}\)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="595" y="480" width="59.5" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-19" value="" style="endArrow=classicThin;html=1;rounded=0;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="zVnugzDT77Fua7-YmlxM-1" target="zVnugzDT77Fua7-YmlxM-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="460" as="sourcePoint" />
+            <mxPoint x="480" y="410" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-53" value="&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; font-family: &amp;quot;Lato Heavy&amp;quot;; font-size: 8px; line-height: 90%;&quot;&gt;Protein sequence alignment metrics; r&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; font-family: &amp;quot;Lato Heavy&amp;quot;; font-size: 8px; line-height: 90%;&quot;&gt;aw sequences against low complexity marked sequences; e&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; font-family: &amp;quot;Lato Heavy&amp;quot;; font-size: 8px; line-height: 90%;&quot;&gt;-value cutoff.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="448.5" y="351" width="146.5" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-58" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;\(\texttt{sample.cl}\)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="661.25" y="481" width="70" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-59" value="" style="curved=1;endArrow=none;html=1;rounded=0;endFill=0;exitX=0.192;exitY=0.996;exitDx=0;exitDy=0;strokeColor=#DFDFDF;dashed=1;exitPerimeter=0;dashPattern=4 2 1 2;" parent="1" source="zVnugzDT77Fua7-YmlxM-53" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500.2600000000001" y="396.427" as="sourcePoint" />
+            <mxPoint x="457" y="459" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="430" />
+              <mxPoint x="457" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-60" value="" style="curved=1;endArrow=none;html=1;rounded=0;entryX=0.222;entryY=-0.006;entryDx=0;entryDy=0;endFill=0;exitX=0.344;exitY=1.009;exitDx=0;exitDy=0;strokeColor=#DFDFDF;dashed=1;exitPerimeter=0;entryPerimeter=0;dashPattern=4 2 1 2;" parent="1" source="zVnugzDT77Fua7-YmlxM-25" target="zVnugzDT77Fua7-YmlxM-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="673.75" y="424" as="sourcePoint" />
+            <mxPoint x="673.75" y="461" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="410" />
+              <mxPoint x="670" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-61" value="" style="curved=1;endArrow=none;html=1;rounded=0;entryX=0.23;entryY=-0.001;entryDx=0;entryDy=0;endFill=0;exitX=0.282;exitY=1.03;exitDx=0;exitDy=0;strokeColor=#DFDFDF;dashed=1;exitPerimeter=0;entryPerimeter=0;dashPattern=4 2 1 2;" parent="1" source="zVnugzDT77Fua7-YmlxM-53" target="zVnugzDT77Fua7-YmlxM-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="531" y="398.75" as="sourcePoint" />
+            <mxPoint x="490" y="464.75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="410" />
+              <mxPoint x="530" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zVnugzDT77Fua7-YmlxM-62" value="" style="curved=1;endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;exitX=0.284;exitY=1.003;exitDx=0;exitDy=0;strokeColor=#DFDFDF;dashed=1;exitPerimeter=0;dashPattern=4 2 1 2;" parent="1" source="zVnugzDT77Fua7-YmlxM-25" target="zVnugzDT77Fua7-YmlxM-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="653" y="430" as="sourcePoint" />
+            <mxPoint x="650" y="455" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="420" />
+              <mxPoint x="623" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
