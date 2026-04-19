@@ -2,7 +2,7 @@
 
 ### Description
 
-This is a tool that applies community detection on protein sequence similarity networks using MCL or HipMCL from a FASTA input file.
+This is a tool that applies community detection on protein sequence similarity networks (PSSNs) using the Markov cluster algorithm (MCL) and its high-performance variant HipMCL on a single compute node from a FASTA input file.
 
 ### Workflow
 
